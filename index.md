@@ -15,6 +15,7 @@ title: KursAdmin.org
         <p>
           <button id="banner-form-login" class="btn btn-lg btn-primary">Logg inn</button>
           <button id="banner-form-signup" class="btn btn-lg btn-default">Få tilgang</button>
+        </p>
       </div>
       <div class="scroll-down">
         <div class="text">Lær mer</div>
