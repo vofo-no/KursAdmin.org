@@ -6,7 +6,7 @@ title: KursAdmin.org
 <header class="banner">
   <div class="banner">
     <div class="container center">
-      <h1><img src="/images/kursadminlogo-600.png" alt="KursAdmin" /></h1>
+      <h1><img src="{{ site.baseurl }}/images/kursadminlogo-600.png" alt="KursAdmin" /></h1>
       <hr>
       <h2>Et nettbasert program for planlegging, administrasjon og dokumentasjon av kursaktivitet i studieforbund og frivillige organisasjoner.</h2>
       <hr>
