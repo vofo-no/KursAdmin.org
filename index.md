@@ -25,7 +25,7 @@ title: KursAdmin.org
     </div>
   </div>
 </header>
-
+</div><div class="container">
 Muligheter med KursAdmin
 ------------------------
 KursAdmin er studieforbund og medlemsorganisasjoner sitt nye administrasjonssystem for kursaktivitet.
