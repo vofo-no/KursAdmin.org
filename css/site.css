@@ -13,9 +13,11 @@ header div.banner div.center {
   display: table-cell;
   float: none;
 }
-header div.banner img { width: 95%; max-width: 600px; }
-header div.banner h2 { line-height: 1.5 }
+header div.banner img { width: 100%; max-width: 600px; }
+header div.banner h2 { line-height: 1.5; font-size: 24px; }
 header div.banner button.btn-lg { padding: 17px 25px;font-size: 22px; }
-@media (min-width:768px){header div.banner button.btn-lg { padding: 18px 32px;font-size: 26px; }}
+@media (min-width:768px){
+	header div.banner button.btn-lg { padding: 18px 32px;font-size: 26px; } 
+	header div.banner h2 { line-height: 1.5; font-size: 30px; }}
 div.scroll-down { cursor: pointer;position: absolute;bottom: 15px;width: 100%;left: 0;right: 0; }
 div.scroll-down div.arrow { border-top: 15px solid #ccc;border-right: 20px solid transparent;border-left: 20px solid transparent;width: 40px;margin: 4px auto auto;}
