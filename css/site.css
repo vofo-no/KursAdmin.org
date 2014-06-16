@@ -13,3 +13,6 @@ header div.banner div.center {
   display: table-cell;
   float: none;
 }
+header div.banner img { max-width: 100%; }
+header div.banner h2 { line-height: 1.5 }
+header div.banner button.btn-lg { padding: 18px 32px;font-size: 26px; }

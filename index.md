@@ -13,8 +13,9 @@ title: KursAdmin.org
       <div id="banner-form">
         <p>Velg ditt studieforbund:</p>
         <p>
-          <button id="banner-form-login" class="btn btn-lg btn-primary">Logg inn</button>
-          <button id="banner-form-signup" class="btn btn-lg btn-default">Få tilgang</button>
+          <button id="banner-form-login" class="btn btn-lg btn-success"><span class="glyphicon glyphicon-log-in"></span> Logg inn</button>
+		  &nbsp;
+          <button id="banner-form-signup" class="btn btn-lg btn-info"><span class="glyphicon glyphicon-thumbs-up"></span> Få tilgang</button>
         </p>
       </div>
       <div class="scroll-down">
