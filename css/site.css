@@ -1,6 +1,6 @@
 html, body, .banner {
   height: 100%;
-  min-height: 600px;
+  min-height: 400px;
 }
 header div.banner {
   display: table;
@@ -8,7 +8,7 @@ header div.banner {
 }
 header div.banner div.center {
   text-align: center;
-  padding: 0 20px;
+  padding: 0 20px 40px;
   vertical-align: middle;
   display: table-cell;
   float: none;
