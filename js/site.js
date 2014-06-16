@@ -1,6 +1,6 @@
 $(function(){
-    var fadeBegin = 300, 
-    fadeFinish = 800, 
+    var fadeBegin = 10, 
+    fadeFinish = 400, 
     fadingElement = $('div.scroll-down');
 
 $(window).on('scroll', function(){
