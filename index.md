@@ -13,7 +13,7 @@ title: KursAdmin.org
       <div id="banner-form">
 	  <div class="row">
 	    <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-	    <select id="stf-velg" class="form-control input-lg"><option value=""> -- Velg ditt studieforbund -- </option>
+	    <select id="stf-valg" class="form-control input-lg"><option value=""> -- Velg ditt studieforbund -- </option>
 	<option value="350">Akademisk studieforbund</option>
 	<option value="370">Kristelig studieforbund</option>
 	<option value="250">Musikkens studieforbund</option>
