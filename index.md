@@ -9,36 +9,42 @@ banner: True
 Muligheter med KursAdmin
 ------------------------
 
-<div class="row">
+<div class="row text-center features">
 <div class="col-sm-4">
-  <h4>Nettbasert</h4>
+  <h4><span class="glyphicon glyphicon-globe"></span>
+    Nettbasert</h4>
   <p>Ingen nedlasting er nødvendig. Har du tilgang til internett er programmet alltid tilgjengelig.</p>
 </div>
 
 <div class="col-sm-4">
-  <h4>Studieplaner</h4>
+  <h4><span class="glyphicon glyphicon-book"></span>
+    Studieplaner</h4>
   <p>KursAdmin samler alle studieplanene til et studieforbund på et sted, og gir medlemmene mulighet til å låne studieplaner av hverandre.</p>
 </div>
 
 <div class="col-sm-4">
-  <h4>Veivisere</h4>
+  <h4><span class="glyphicon glyphicon-play"></span>
+    Veivisere</h4>
   <p>I KursAdmin finner du en veiviser som gjør alle i stand til å lage forslag til studieplan. Likevel kan bare de ansvarlige godkjenne studieplanene. Enkelt og trygt.</p>
 </div>
 </div>
 
-<div class="row">
+<div class="row text-center features">
 <div class="col-sm-4">
-  <h4>Enkel kommunikasjon</h4>
+  <h4><span class="glyphicon glyphicon-bullhorn"></span>
+    Enkel kommunikasjon</h4>
   <p>KursAdmin gir arrangøren mulighet til å sende informasjon til deltakere via e-post og SMS.</p>
 </div>
 
 <div class="col-sm-4">
-  <h4>Fakturering</h4>
+  <h4><span class="glyphicon glyphicon-send"></span>
+    Fakturering</h4>
   <p>Studieforbund som ønsker det, kan fakturere deltakere gjennom KursAdmin.</p>
 </div>
 
 <div class="col-sm-4">
-  <h4>Rapportering</h4>
+  <h4><span class="glyphicon glyphicon-ok"></span>
+    Rapportering</h4>
   <p>Når et kurs avsluttes i KursAdmin, er det også automatisk rapportert!</p>
 </div>
 </div>
