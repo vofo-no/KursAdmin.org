@@ -9,21 +9,9 @@
 	  <div class="row">
 	    <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
 	    <select id="stf-valg" class="form-control input-lg"><option value=""> -- Velg ditt studieforbund -- </option>
-	<option value="350">Akademisk studieforbund</option>
-	<option value="370">Kristelig studieforbund</option>
-	<option value="250">Musikkens studieforbund</option>
-	<option value="270">Samisk studieforbund</option>
-	<option value="340">Senterpartiets studieforbund</option>
-	<option value="300">Sosialistisk Venstrepartis studieforbund</option>
-	<option value="220">Studieforbundet AOF Norge</option>
-	<option value="210">Studieforbundet Folkeuniversitetet</option>
-	<option value="200">Studieforbundet FUNKIS</option>
-	<option value="290">Studieforbundet kultur og tradisjon</option>
-	<option value="320">Studieforbundet natur og miljø</option>
-	<option value="240">Studieforbundet næring og samfunn</option>
-	<option value="330">Studieforbundet solidaritet</option>
-	<option value="310">Venstres opplysnings- og studieforbund</option>
-	<option value="230">Voksenopplæringsforbundet</option>
+	    	{% for stf in site.data.studieforbund %}
+			<option value="{{ stf.nr }}">{{ stf.navn }}</option>
+		{% endfor %}
 	    </select>
 	    </div>
 	  </div>
