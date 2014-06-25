@@ -48,9 +48,7 @@ banner: True
 </div>
 </div>
 
-***
-
-Noen funksjoner må aktiveres av studieforbundet, og er ikke tilgjengelig for alle brukere.
+<small>Noen funksjoner må aktiveres av studieforbundet, og er ikke tilgjengelig for alle brukere.</small>
 
 ***
 
