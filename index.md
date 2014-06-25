@@ -48,7 +48,9 @@ banner: True
 </div>
 </div>
 
-<small>Noen funksjoner må aktiveres av studieforbundet, og er ikke tilgjengelig for alle brukere.</small>
+***
+
+<small>Noen funksjoner må aktiveres av studieforbundet, og er ikke tilgjengelig for alle brukere. Kontakt ditt studieforbund for å høre hvilke funksjoner du kan forvente å finne i KursAdmin.</small>
 
 ***
 
