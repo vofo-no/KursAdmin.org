@@ -27,7 +27,7 @@ Studieforbund som ønsker det, kan fakturere deltakere gjennom KursAdmin.
 #### Rapportering
 Når et kurs avsluttes i KursAdmin, er det også automatisk rapportert!
 
-~~~
+***
 
 Noen funksjoner må aktiveres av studieforbundet, og er ikke tilgjengelig for alle brukere.
 
