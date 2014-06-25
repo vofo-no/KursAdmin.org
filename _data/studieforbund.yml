@@ -1,0 +1,62 @@
+- navn: Akademisk studieforbund
+  nr: 350
+  support_mail: aks@aks.as
+
+- navn: Idrettens studieforbund
+  nr: 380
+
+- navn: Kristelig studieforbund
+  nr: 370
+  support_mail: post@k-stud.no
+  support_tlf: 23 08 14 70
+
+- navn: Musikkens studieforbund
+  nr: 250
+  support_mail: msf@musikk.no
+  support_tlf: 22 00 56 00
+  support_web: http://www.musikkensstudieforbund.no/kursadmin/
+
+- navn: Samisk studieforbund
+  nr: 270
+
+- navn: Senterpartiets studieforbund
+  nr: 340
+
+- navn: Sosialistisk Venstrepartis studieforbund
+  nr: 300
+
+- navn: Studieforbundet AOF Norge
+  nr: 220
+
+- navn: Studieforbundet Folkeuniversitetet
+  nr: 210
+
+- navn: Studieforbundet FUNKIS
+  nr: 200
+  support_mail: post@funkis.no
+  support_tlf: 06 315
+  support_web: http://funkis.no/node/195
+
+- navn: Studieforbundet kultur og tradisjon
+  nr: 290
+  support_mail: post@kulturogtradisjon.no
+  support_tlf: 61 21 77 54
+  support_web: http://www.kulturogtradisjon.no/component/content/article?id=722
+
+- navn: Studieforbundet natur og miljø
+  nr: 320
+
+- navn: Studieforbundet næring og samfunn
+  nr: 240
+  support_mail: post@naeringogsamfunn.no
+  support_tlf: 22 17 66 00
+  support_web: http://snos.no/sporsmal-og-svar?catid=6
+
+- navn: Studieforbundet solidaritet
+  nr: 330
+
+- navn: Venstres opplysnings- og studieforbund
+  nr: 310
+
+- navn: Voksenopplæringsforbundet
+  nr: 230
