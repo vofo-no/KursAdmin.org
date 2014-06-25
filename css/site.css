@@ -1,6 +1,6 @@
 html, body, .banner {
   height: 100%;
-  min-height: 600px;
+  min-height: 580px;
 }
 header div.banner {
   display: table;
