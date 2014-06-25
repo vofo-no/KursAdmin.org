@@ -9,23 +9,39 @@ banner: True
 Muligheter med KursAdmin
 ------------------------
 
+<div class="row">
+<div class="col-sm-4">
 #### Nettbasert
 Ingen nedlasting er nødvendig. Har du tilgang til internett er programmet alltid tilgjengelig.
+</div>
 
+<div class="col-sm-4">
 #### Studieplaner
 KursAdmin samler alle studieplanene til et studieforbund på et sted, og gir medlemmene mulighet til å låne studieplaner av hverandre.
+</div>
 
+<div class="col-sm-4">
 #### Veivisere
 I KursAdmin finner du en veiviser som gjør alle i stand til å lage forslag til studieplan. Likevel kan bare de ansvarlige godkjenne studieplanene. Enkelt og trygt.
+</div>
+</div>
 
+<div class="row">
+<div class="col-sm-4">
 #### Enkel kommunikasjon
 KursAdmin gir arrangøren mulighet til å sende informasjon til deltakere via e-post og SMS.
+</div>
 
+<div class="col-sm-4">
 #### Fakturering
 Studieforbund som ønsker det, kan fakturere deltakere gjennom KursAdmin.
+</div>
 
+<div class="col-sm-4">
 #### Rapportering
 Når et kurs avsluttes i KursAdmin, er det også automatisk rapportert!
+</div>
+</div>
 
 Noen funksjoner må aktiveres av studieforbundet, og er ikke tilgjengelig for alle brukere.
 
