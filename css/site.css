@@ -28,4 +28,5 @@ div.scroll-down: display: none;
 	div.scroll-down div.arrow { border-top: 15px solid #ccc;border-right: 20px solid transparent;border-left: 20px solid transparent;width: 40px;margin: 4px auto auto;}
 }
 
-.features h4 span.glyphicon { font-size: 50px; display: block; margin: 15px auto 10px; color: #A41D21;}
+.features h4 span.glyphicon { font-size: 50px; display: block; margin: 20px auto 10px; color: #A41D21;}
+h2.feature { text-align: center; border-bottom: 1px solid #eeeeee; padding-bottom: 20px; margin: 25px 0 20px;}
