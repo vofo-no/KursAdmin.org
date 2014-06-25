@@ -9,27 +9,45 @@ banner: True
 Muligheter med KursAdmin
 ------------------------
 
-#### Nettbasert
-Ingen nedlasting er nødvendig. Har du tilgang til internett er programmet alltid tilgjengelig.
+<div class="row">
+<div class="col-sm-4">
+  <h4>Nettbasert</h4>
+  <p>Ingen nedlasting er nødvendig. Har du tilgang til internett er programmet alltid tilgjengelig.</p>
+</div>
 
-#### Studieplaner
-KursAdmin samler alle studieplanene til et studieforbund på et sted, og gir medlemmene mulighet til å låne studieplaner av hverandre.
+<div class="col-sm-4">
+  <h4>Studieplaner</h4>
+  <p>KursAdmin samler alle studieplanene til et studieforbund på et sted, og gir medlemmene mulighet til å låne studieplaner av hverandre.</p>
+</div>
 
-#### Veivisere
-I KursAdmin finner du en veiviser som gjør alle i stand til å lage forslag til studieplan. Likevel kan bare de ansvarlige godkjenne studieplanene. Enkelt og trygt.
+<div class="col-sm-4">
+  <h4>Veivisere</h4>
+  <p>I KursAdmin finner du en veiviser som gjør alle i stand til å lage forslag til studieplan. Likevel kan bare de ansvarlige godkjenne studieplanene. Enkelt og trygt.</p>
+</div>
+</div>
 
-#### Enkel kommunikasjon
-KursAdmin gir arrangøren mulighet til å sende informasjon til deltakere via e-post og SMS.
+<div class="row">
+<div class="col-sm-4">
+  <h4>Enkel kommunikasjon</h4>
+  <p>KursAdmin gir arrangøren mulighet til å sende informasjon til deltakere via e-post og SMS.</p>
+</div>
 
-#### Fakturering
-Studieforbund som ønsker det, kan fakturere deltakere gjennom KursAdmin.
+<div class="col-sm-4">
+  <h4>Fakturering</h4>
+  <p>Studieforbund som ønsker det, kan fakturere deltakere gjennom KursAdmin.</p>
+</div>
 
-#### Rapportering
-Når et kurs avsluttes i KursAdmin, er det også automatisk rapportert!
+<div class="col-sm-4">
+  <h4>Rapportering</h4>
+  <p>Når et kurs avsluttes i KursAdmin, er det også automatisk rapportert!</p>
+</div>
+</div>
 
 ***
 
 Noen funksjoner må aktiveres av studieforbundet, og er ikke tilgjengelig for alle brukere.
+
+***
 
 Hva er hensikten med KursAdmin?
 -------------------------------
