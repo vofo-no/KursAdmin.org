@@ -17,7 +17,18 @@
 	  </div>
 	  <div class="row" style="padding-top: 20px;">
 	      <div class="col-lg-3 col-lg-offset-3 col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-6">
-	   <button id="banner-form-login" class="btn btn-lg btn-success btn-block"><span class="glyphicon glyphicon-log-in"></span> Logg inn</button>
+	      	<div class="btn-group">
+			<button id="banner-form-login" class="btn btn-lg btn-success btn-block"><span class="glyphicon glyphicon-log-in"></span> Logg inn</button>
+			<button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+    				<span class="caret"></span>
+    				<span class="sr-only">Vis eller skjul nedtrekk</span>
+  			</button>
+  			<ul class="dropdown-menu" role="menu">
+    				<li><a href="#" id="banner-form-login-test">Logg inn i testmiljø</a></li>
+    				<li class="divider"></li>
+    				<li><a href="#" id="banner-form-login-help">Hjelp - hva skal jeg velge?</a></li>
+			</ul>
+		</div>
 	    </div>
 	      <div class="col-lg-3 col-md-4 col-sm-5 col-xs-6">
 	    <button id="banner-form-signup" class="btn btn-lg btn-info btn-block"><span class="glyphicon glyphicon-thumbs-up"></span> Få tilgang</button>
