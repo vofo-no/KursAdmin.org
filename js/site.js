@@ -18,7 +18,7 @@
 /* ------- site.js ------- */
 
 /* FADE-on-scroll-function: o = fadeBegin, c=fadeFinish */
-$(function(){var o=10,c=400,n=$("div.scroll-down");n.on('click',function(){$.scrollTo($('div.container:first');)});$(window).on("scroll",function(){var l=$(document).scrollTop(),s=0;console.log(l),o>=l?s=1:c>=l&&(s=1-l/c),n.css("opacity",s)})});
+$(function(){var o=10,c=400,n=$("div.scroll-down");n.on('click',function(){$.scrollTo($('div.container').first();)});$(window).on("scroll",function(){var l=$(document).scrollTop(),s=0;console.log(l),o>=l?s=1:c>=l&&(s=1-l/c),n.css("opacity",s)})});
 
 /* Login clicks */
 $(function(){var a='#stf-valg';$('#banner-form-login').on('click',function(){location.href='https://www.kursadmin.org/pls/kas/f?p='+$(a).val()});$('#banner-form-login-test').on('click',function(){location.href='http://test.senitel.no/pls/kastest/f?p='+$(a).val()});});
