@@ -21,5 +21,25 @@
 $(function(){var o=10,c=400,n=$("div.scroll-down");n.on('click',function(){$.scrollTo($('div.container').first(),{duration:500})});$(window).on("scroll",function(){var l=$(document).scrollTop(),s=0;console.log(l),o>=l?s=1:c>=l&&(s=1-l/c),n.css("opacity",s)})});
 
 /* COOKIE-remember-selected-option: e = select id / cookie name */
-$(function(){var e="stf-valg";null!=$.cookie(e)&&$("#"+e+' option[value="'+$.cookie(e)+'"]').attr("selected","selected").parent().trigger('change'),$("#"+e).change(function(){var v=$(this).val(),$.cookie(e,v,{expires:90,path:"/"}),var o=$('#banner-form-login'),var p=$('#banner-form-login'),v?(o.attr('href','https://www.kursadmin.org/pls/kas/f?p='+v).attr('disabled',false),p.attr('href','http://test.senitel.no/pls/kastest/f?p='+v).attr('disabled',false)):(o.attr('href','#').attr('disabled',true),p.attr('href','#').attr('disabled',true))})});
-
+$(function() {
+    var e = "stf-valg";
+    if (null !== $.cookie(e)) {
+        $("#" + e + ' option[value="' + $.cookie(e) + '"]').attr("selected", "selected").parent().trigger('change');
+        $("#" + e).on('change', function() {
+            var v = $(this).val(),
+                o = $('#banner-form-login'),
+                p = $('#banner-form-login');
+            $.cookie(e, v, {
+                expires: 90,
+                path: "/"
+            });
+            if (v) {
+                o.attr('href', 'https://www.kursadmin.org/pls/kas/f?p=' + v).attr('disabled', false);
+                p.attr('href', 'http://test.senitel.no/pls/kastest/f?p=' + v).attr('disabled', false);
+            } else {
+                o.attr('href', '#').attr('disabled', true);
+                p.attr('href', '#').attr('disabled', true);
+            }
+        });
+    }
+});
