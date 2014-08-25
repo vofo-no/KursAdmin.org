@@ -24,11 +24,11 @@ $(function(){var o=10,c=400,n=$("div.scroll-down");n.on('click',function(){$.scr
 $(function() {
     var e = "stf-valg";
     if (null !== $.cookie(e)) {
-        $("#" + e + ' option[value="' + $.cookie(e) + '"]').attr("selected", "selected").parent().trigger('change');
+        $("#" + e + ' option[value="' + $.cookie(e) + '"]').attr("selected", "selected");
         $("#" + e).on('change', function() {
             var v = $(this).val(),
                 o = $('#banner-form-login'),
-                p = $('#banner-form-login');
+                p = $('#banner-form-login-test');
             $.cookie(e, v, {
                 expires: 90,
                 path: "/"
@@ -40,6 +40,6 @@ $(function() {
                 o.attr('href', '#').attr('disabled', true);
                 p.attr('href', '#').attr('disabled', true);
             }
-        });
+        }).trigger('change');
     }
 });
