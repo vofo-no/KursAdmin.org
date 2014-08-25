@@ -15,7 +15,7 @@ header div.banner div.center {
 }
 header div.banner img { width: 100%; max-width: 600px; }
 header div.banner h2 { line-height: 1.5; font-size: 20px; }
-header div.banner button.btn-lg { padding: 15px 16px;font-size: 18px; }
+header div.banner button.btn-lg, header div.banner a.btn-lg { padding: 15px 16px;font-size: 18px; }
 div.scroll-down: display: none;
 
 footer {
@@ -27,10 +27,10 @@ color: #aaa;
 }
 
 @media (min-width:480px){
-	header div.banner button.btn-lg { padding: 17px 25px;font-size: 22px; } 
+	header div.banner button.btn-lg, header div.banner a.btn-lg { padding: 17px 25px;font-size: 22px; } 
 	header div.banner h2 { line-height: 1.5; font-size: 24px; }}
 @media (min-width:768px){
-	header div.banner button.btn-lg { padding: 18px 32px;font-size: 26px; } 
+	header div.banner button.btn-lg, header div.banner a.btn-lg { padding: 18px 32px;font-size: 26px; } 
 	header div.banner h2 { line-height: 1.5; font-size: 30px; }}
 @media (min-height:600px) {
 	div.scroll-down { display:block; cursor: pointer;position: absolute;bottom: -15px;width: 100%;left: 0;right: 0; height: 50px; margin: 20px 0; text-align: center; }
