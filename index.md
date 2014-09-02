@@ -61,6 +61,8 @@ banner: True
 			<tr>
 			  <th>{{ stf.navn }}</th>
 			  <td>{% if stf.support_mail %}<a href="mailto:{{ stf.support_mail }}">{{ stf.support_mail }}</a>{% endif %}</td>
+			  <td>{% if stf.support_tlf %}{{ stf.support_tlf }}{% endif %}</td>
+			  <td>{% if stf.support_web %}<a href="{{ stf.support_web }}">Hjelpeside</a>{% endif %}</td>
 			</tr>
 		{% endfor %}
 </tbody></table>
