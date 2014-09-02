@@ -54,5 +54,13 @@ banner: True
 
 <h2 class="feature">Få hjelp med KursAdmin</h2>
 
-<p class="lead">KursAdmin skal bidra til enklere administrasjon, bedre kvalitetssikring, mer gjennomsiktighet, mer pålitelighet og bedre dokumentasjon av kursvirksomheten. Verktøyet er tilgjengelig for studieforbundene og deres medlemsorganisasjoner gjennom VOFO.</p>
+<p class="lead">Det er det enkelte studieforbund som tilbyr hjelp og støtte til sine medlemsorganisasjoner og lokallag. Under har vi laget en oversikt som gjør det enkelt å få kontakt med deres studieforbund.</p>
 
+<table class="table"><tbody>
+	    	{% for stf in site.data.studieforbund %}
+			<tr>
+			  <th>{{ stf.navn }}</th>
+			  <td>{% if stf.support_mail %}<a href="mailto:{{ stf.support_mail }}">{{ stf.support_mail }}</a>{% endif %}</td>
+			</tr>
+		{% endfor %}
+</tbody></table>
