@@ -8,6 +8,8 @@ banner: True
 
 <h2 class="feature">Muligheter med KursAdmin</h2>
 
+<p class="lead">KursAdmin skal bidra til enklere administrasjon, bedre kvalitetssikring, mer gjennomsiktighet, mer pålitelighet og bedre dokumentasjon av kursvirksomheten. Verktøyet er tilgjengelig for studieforbundene og deres medlemsorganisasjoner gjennom VOFO.</p>
+
 <div class="row text-center features">
 <div class="col-sm-4">
   <h4><span class="glyphicon glyphicon-globe"></span>
@@ -48,21 +50,9 @@ banner: True
 </div>
 </div>
 
-***
+<div style="height: 300px;"><div style="background: url('http://31.media.tumblr.com/f815448aff9bc169f860bc8b63e66cde/tumblr_muhx7hzIIY1sdyj9lo1_1280.jpg') no-repeat 50% 60%;height: 300px;position: absolute;width: 100%;left: 0;background-size: cover;z-index: -1;"></div></div>
 
-<small>Noen funksjoner må aktiveres av studieforbundet, og er ikke tilgjengelig for alle brukere. Kontakt ditt studieforbund for å høre hvilke funksjoner du kan forvente å finne i KursAdmin.</small>
+<h2 class="feature">Få hjelp med KursAdmin</h2>
 
-***
+<p class="lead">KursAdmin skal bidra til enklere administrasjon, bedre kvalitetssikring, mer gjennomsiktighet, mer pålitelighet og bedre dokumentasjon av kursvirksomheten. Verktøyet er tilgjengelig for studieforbundene og deres medlemsorganisasjoner gjennom VOFO.</p>
 
-Hva er hensikten med KursAdmin?
--------------------------------
-Enklere administrasjon, bedre kvalitetssikring, mer gjennomsiktighet, mer pålitelighet og bedre dokumentasjon av kursvirksomheten.
-
-### KursAdmin skal
-* Være et effektivt og nyttig verktøy for studieforbund og medlemsorganisasjoner.
-* Sørge for enhetlig rapportering til Statistisk Sentralbyrå fra alle studieforbund.
-* Gjøre det lettere å se hvordan kursvirksomheten utvikler seg gjennom året.
-* Gjøre det lettere for kursarrangører å oppfylle regler og krav – og vanskeligere å gjøre feil.
-* Være en pålitelig kilde til statistikk, rapporter og dokumentasjon av den kursvirksomheten som gjennomføres.
-* Åpne for å lære mer av hverandre – studieplaner og maler kan brukes på tvers av organisasjoner.
-* Gjøre det mulig for alle lokale kursarrangører å administrere sine egne kurs.
