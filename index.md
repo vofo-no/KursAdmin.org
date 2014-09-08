@@ -67,7 +67,7 @@ Det er det enkelte studieforbund som tilbyr hjelp og støtte til sine medlemsorg
 		{% if stf.support_mail or stf.support_tlf or stf.support_web %}
 			<tr id="stf-row-{{stf.nr}}">
 			  <th>{{ stf.navn }}</th>
-			  <td>{% if stf.support_mail %}<a href="mailto:{{ stf.support_mail }}">{{ stf.support_mail }}</a>{% endif %}</td>
+			  <td>{% if stf.support_mail %}<a href="mailto:{{ stf.support_mail }}?subject=Hjelp%20med%20KursAdmin">{{ stf.support_mail }}</a>{% endif %}</td>
 			  <td>{% if stf.support_tlf %}{{ stf.support_tlf }}{% endif %}</td>
 			  <td>{% if stf.support_web %}<a href="{{ stf.support_web }}">Hjelpeside</a>{% endif %}</td>
 			</tr>
@@ -75,4 +75,4 @@ Det er det enkelte studieforbund som tilbyr hjelp og støtte til sine medlemsorg
 		{% endfor %}
 </tbody></table>
 
-Dersom du ikke finner ditt studieforbund på lista over, eller opplysningene er feil, vennligst gi beskjed til [kursadmin@vofo.no](mailto:kursadmin@vofo.no?subject=Feil+eller+mangler+i+kontaktopplysninger+på+kursadmin.org).
+Dersom du ikke finner ditt studieforbund på lista over, eller opplysningene er feil, vennligst gi beskjed til [kursadmin@vofo.no](mailto:kursadmin@vofo.no?subject=Feil eller mangler i kontaktopplysninger på kursadmin.org).
