@@ -51,30 +51,32 @@
 		<form role="form">
 			<div class="modal-body">
 				<p>For å få tilgang til KursAdmin må du først opprettes som bruker i systemet. Det er det enkelte studieforbund som oppretter brukere, og dette skjer manuelt. Ved å fylle inn skjemaet under sender vi en e-post til studieforbundet med opplysninger om deg. Alternativt kan du ta direkte kontakt med studieforbundet ditt.</p>
-				<select id="tilgang-stf-valg" class="form-control"><option value=""> -- Velg ditt studieforbund -- </option>
-					{% for stf in site.data.studieforbund %}
-					<option value="{{ stf.nr }}">{{ stf.navn }}</option>
-				{% endfor %}
-				</select>
+				<div class="form-group">
+					<select id="tilgang-stf-valg" class="form-control"><option value=""> -- Velg ditt studieforbund -- </option>
+						{% for stf in site.data.studieforbund %}
+						<option value="{{ stf.nr }}">{{ stf.navn }}</option>
+					{% endfor %}
+					</select>
+				</div>
 				<div class="form-group">
 					<label for="tilgang-navn">Ditt navn</label>
-					<input type="text" id="tilgang-navn" name="tilgang-navn" placeholder="Ditt navn">
+					<input type="text" class="form-control" id="tilgang-navn" name="tilgang-navn" placeholder="Ditt navn">
 				</div>
 				<div class="form-group">
 					<label for="tilgang-epost">Din e-postadresse</label>
-					<input type="email" id="tilgang-epost" name="tilgang-epost" placeholder="Din e-postadresse">
+					<input type="email" class="form-control" id="tilgang-epost" name="tilgang-epost" placeholder="Din e-postadresse">
 				</div>
 				<div class="form-group">
 					<label for="tilgang-postnummer">Ditt postnummer</label>
-					<input type="text" id="tilgang-postnummer" name="tilgang-postnummer" placeholder="0000">
+					<input type="text" class="form-control" id="tilgang-postnummer" name="tilgang-postnummer" placeholder="0000">
 				</div>
 				<div class="form-group">
 					<label for="tilgang-fodselsaar">Ditt fødselsår</label>
-					<input type="number" id="tilgang-fodselsaar" name="tilgang-fodselsaar" max="{{ site.time | date: '%y' }}" min="1900" placeholder="Årstall">
+					<input type="number" class="form-control" id="tilgang-fodselsaar" name="tilgang-fodselsaar" max="{{ site.time | date: '%Y' }}" min="1900" placeholder="Årstall">
 				</div>
 				<div class="form-group">
 					<label for="tilgang-lokallag">Ditt lokallag</label>
-					<input type="text" id="tilgang-lokallag" name="tilgang-lokallag" placeholder="Ditt lokallag">
+					<input type="text" class="form-control" id="tilgang-lokallag" name="tilgang-lokallag" placeholder="Ditt lokallag">
 				</div>
 			</div>
 		  <div class="modal-footer">
