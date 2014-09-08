@@ -33,9 +33,11 @@ $(function() {
                 expires: 90,
                 path: "/"
             });
+			$('#stf-table tr').removeClass('active');
             if (v) {
                 o.attr('href', 'https://www.kursadmin.org/pls/kas/f?p=' + v).attr('disabled', false);
                 p.attr('href', 'http://test.senitel.no/pls/kastest/f?p=' + v).attr('disabled', false);
+				$('#stf-row-' + v).addClass('active');
             } else {
                 o.attr('href', '#').attr('disabled', true);
                 p.attr('href', '#').attr('disabled', true);

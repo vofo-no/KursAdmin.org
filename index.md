@@ -6,9 +6,12 @@ banner: True
 
 <div style="height: 300px;"><div style="background: url('http://38.media.tumblr.com/b69af3ed8a74f7df5e374711d1ed886c/tumblr_n7fgnop0bz1st5lhmo1_1280.jpg') no-repeat 50% 60%;height: 300px;position: absolute;width: 100%;left: 0;background-size: cover;z-index: -1;"></div></div>
 
-<h2 class="feature">Muligheter med KursAdmin</h2>
+{: .feature }
+Muligheter med KursAdmin
+------------------------
 
-<p class="lead">KursAdmin skal bidra til enklere administrasjon, bedre kvalitetssikring, mer gjennomsiktighet, mer pålitelighet og bedre dokumentasjon av kursvirksomheten. Verktøyet er tilgjengelig for studieforbundene og deres medlemsorganisasjoner gjennom VOFO.</p>
+{: .lead }
+KursAdmin skal bidra til enklere administrasjon, bedre kvalitetssikring, mer gjennomsiktighet, mer pålitelighet og bedre dokumentasjon av kursvirksomheten. Verktøyet er tilgjengelig for studieforbundene og deres medlemsorganisasjoner gjennom VOFO.
 
 <div class="row text-center features">
 <div class="col-sm-4">
@@ -59,10 +62,10 @@ Få hjelp med KursAdmin
 {: .lead }
 Det er det enkelte studieforbund som tilbyr hjelp og støtte til sine medlemsorganisasjoner og lokallag. Under har vi laget en oversikt som gjør det enkelt å få kontakt med deres studieforbund.
 
-<table class="table"><tbody>
+<table class="table table-hover" id="stf-table"><tbody>
 		{% for stf in site.data.studieforbund %}
 		{% if stf.support_mail or stf.support_tlf or stf.support_web %}
-			<tr>
+			<tr id="stf-row-{{stf.nr}}">
 			  <th>{{ stf.navn }}</th>
 			  <td>{% if stf.support_mail %}<a href="mailto:{{ stf.support_mail }}">{{ stf.support_mail }}</a>{% endif %}</td>
 			  <td>{% if stf.support_tlf %}{{ stf.support_tlf }}{% endif %}</td>
