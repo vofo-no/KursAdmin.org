@@ -52,17 +52,24 @@ banner: True
 
 <div style="height: 300px; margin-top: 5ex;"><div style="background: url('http://31.media.tumblr.com/f815448aff9bc169f860bc8b63e66cde/tumblr_muhx7hzIIY1sdyj9lo1_1280.jpg') no-repeat 50% 60%;height: 300px;position: absolute;width: 100%;left: 0;background-size: cover;z-index: -1;"></div></div>
 
-<h2 class="feature">Få hjelp med KursAdmin</h2>
+{: .feature }
+Få hjelp med KursAdmin
+----------------------
 
-<p class="lead">Det er det enkelte studieforbund som tilbyr hjelp og støtte til sine medlemsorganisasjoner og lokallag. Under har vi laget en oversikt som gjør det enkelt å få kontakt med deres studieforbund.</p>
+{: .lead }
+Det er det enkelte studieforbund som tilbyr hjelp og støtte til sine medlemsorganisasjoner og lokallag. Under har vi laget en oversikt som gjør det enkelt å få kontakt med deres studieforbund.
 
 <table class="table"><tbody>
-	    	{% for stf in site.data.studieforbund %}
+		{% for stf in site.data.studieforbund %}
+		{% if stf.support_mail or stf.support_tlf or stf.support_web %}
 			<tr>
 			  <th>{{ stf.navn }}</th>
 			  <td>{% if stf.support_mail %}<a href="mailto:{{ stf.support_mail }}">{{ stf.support_mail }}</a>{% endif %}</td>
 			  <td>{% if stf.support_tlf %}{{ stf.support_tlf }}{% endif %}</td>
 			  <td>{% if stf.support_web %}<a href="{{ stf.support_web }}">Hjelpeside</a>{% endif %}</td>
 			</tr>
+		{% endif %}
 		{% endfor %}
 </tbody></table>
+
+Dersom du ikke finner ditt studieforbund på lista over, eller opplysningene er feil, vennligst gi beskjed til [kursadmin@vofo.no](mailto:kursadmin@vofo.no?subject=Feil+eller+mangler+i+kontaktopplysninger+på+kursadmin.org).
