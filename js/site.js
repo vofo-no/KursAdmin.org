@@ -44,4 +44,5 @@ $(function() {
             }
         }).trigger('change');
     }
+	$('#banner-form-login-test').tooltip();
 });
