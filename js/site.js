@@ -28,7 +28,8 @@ $(function() {
         $("#" + e).on('change', function() {
             var v = $(this).val(),
                 o = $('#banner-form-login'),
-                p = $('#banner-form-login-test');
+                p = $('#banner-form-login-test'),
+                q = $('#tilgang-stf');
             $.cookie(e, v, {
                 expires: 90,
                 path: "/"
@@ -37,6 +38,7 @@ $(function() {
             if (v) {
                 o.attr('href', 'https://www.kursadmin.org/pls/kas/f?p=' + v).attr('disabled', false);
                 p.attr('href', 'http://test.senitel.no/pls/kastest/f?p=' + v).attr('disabled', false);
+				q.find('option').filter(function(){return $(this).text() == v}).prop('selected', true);
 				$('#stf-row-' + v).addClass('active');
             } else {
                 o.attr('href', '#').attr('disabled', true);
