@@ -52,7 +52,8 @@
 			<div class="modal-body">
 				<p>For å få tilgang til KursAdmin må du først opprettes som bruker i systemet. Det er det enkelte studieforbund som oppretter brukere, og dette skjer manuelt. Ved å fylle inn skjemaet under sender vi en e-post til studieforbundet med opplysninger om deg. Alternativt kan du ta direkte kontakt med studieforbundet ditt.</p>
 				<div class="form-group">
-					<select id="tilgang-stf-valg" class="form-control"><option value=""> -- Velg ditt studieforbund -- </option>
+					<label for="tilgang-stf">Ditt studieforbund</label>
+					<select id="tilgang-stf" name="tilgang-stf" class="form-control"><option value=""> -- Velg ditt studieforbund -- </option>
 						{% for stf in site.data.studieforbund %}
 						<option value="{{ stf.nr }}">{{ stf.navn }}</option>
 					{% endfor %}
@@ -60,24 +61,27 @@
 				</div>
 				<div class="form-group">
 					<label for="tilgang-navn">Ditt navn</label>
-					<input type="text" class="form-control" id="tilgang-navn" name="tilgang-navn" placeholder="Ditt navn">
+					<input type="text" class="form-control" id="tilgang-navn" name="tilgang-navn" placeholder="Ditt navn (f.eks. Kari Nordmann)">
 				</div>
 				<div class="form-group">
 					<label for="tilgang-epost">Din e-postadresse</label>
-					<input type="email" class="form-control" id="tilgang-epost" name="tilgang-epost" placeholder="Din e-postadresse">
+					<input type="email" class="form-control" id="tilgang-epost" name="tilgang-epost" placeholder="Din e-postadresse (f.eks. epost@eksempel.no)">
 				</div>
-				<div class="form-group">
-					<label for="tilgang-postnummer">Ditt postnummer</label>
-					<input type="text" class="form-control" id="tilgang-postnummer" name="tilgang-postnummer" placeholder="0000">
-				</div>
-				<div class="form-group">
-					<label for="tilgang-fodselsaar">Ditt fødselsår</label>
-					<input type="number" class="form-control" id="tilgang-fodselsaar" name="tilgang-fodselsaar" max="{{ site.time | date: '%Y' }}" min="1900" placeholder="Årstall">
+				<div class="row">
+					<div class="form-group col-sm-6">
+						<label for="tilgang-postnummer">Ditt postnummer</label>
+						<input type="text" class="form-control" id="tilgang-postnummer" name="tilgang-postnummer" placeholder="(f.eks. 1234)">
+					</div>
+					<div class="form-group col-sm-6">
+						<label for="tilgang-fodselsaar">Ditt fødselsår</label>
+						<input type="number" class="form-control" id="tilgang-fodselsaar" name="tilgang-fodselsaar" max="{{ site.time | date: '%Y' }}" min="1900" placeholder="Årstall">
+					</div>
 				</div>
 				<div class="form-group">
 					<label for="tilgang-lokallag">Ditt lokallag</label>
-					<input type="text" class="form-control" id="tilgang-lokallag" name="tilgang-lokallag" placeholder="Ditt lokallag">
+					<input type="text" class="form-control" id="tilgang-lokallag" name="tilgang-lokallag" placeholder="Ditt lokallag (f.eks. Vågå husflidslag)">
 				</div>
+				<p>Alle felt er påkrevd.</p>
 			</div>
 		  <div class="modal-footer">
 			<button type="button" class="btn btn-default" data-dismiss="modal" style="float:left">Avbryt</button>
