@@ -53,14 +53,14 @@ KursAdmin skal bidra til enklere administrasjon, bedre kvalitetssikring, mer gje
 </div>
 </div>
 
-<div style="height: 300px; margin-top: 5ex;"><div style="background: url('http://31.media.tumblr.com/f815448aff9bc169f860bc8b63e66cde/tumblr_muhx7hzIIY1sdyj9lo1_1280.jpg') no-repeat 50% 60%;height: 300px;position: absolute;width: 100%;left: 0;background-size: cover;z-index: -1;"></div></div>
+<div style="height: 300px; margin-top: 5ex;"><div style="background: url('http://33.media.tumblr.com/31f24c22894d6d46a7b6f4b0687db9cd/tumblr_mnh0uemhCk1st5lhmo1_1280.jpg') no-repeat 50% 60%;height: 300px;position: absolute;width: 100%;left: 0;background-size: cover;z-index: -1;"></div></div>
 
 {: .feature }
 Få hjelp med KursAdmin
 ----------------------
 
 {: .lead }
-Det er det enkelte studieforbund som tilbyr hjelp og støtte til sine medlemsorganisasjoner og lokallag. Under har vi laget en oversikt som gjør det enkelt å få kontakt med deres studieforbund.
+Det er det enkelte studieforbund som tilbyr kurs, hjelp og støtte til sine medlemsorganisasjoner og lokallag. Under har vi laget en oversikt som gjør det enkelt å få kontakt med deres studieforbund.
 
 <table class="table table-hover" id="stf-table"><tbody>
 		{% for stf in site.data.studieforbund %}
