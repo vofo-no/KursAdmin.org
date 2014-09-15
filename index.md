@@ -65,11 +65,13 @@ Det er det enkelte studieforbund som tilbyr kurs, hjelp og støtte til sine medl
 <table class="table table-hover" id="stf-table"><tbody>
 		{% for stf in site.data.studieforbund %}
 		{% if stf.support_mail or stf.support_tlf or stf.support_web %}
-			<tr id="stf-row-{{stf.nr}}">
-			  <th>{{ stf.navn }}</th>
-			  <td>{% if stf.support_mail %}<a href="mailto:{{ stf.support_mail }}?subject=Hjelp%20med%20KursAdmin">{{ stf.support_mail }}</a>{% endif %}</td>
-			  <td>{% if stf.support_tlf %}{{ stf.support_tlf }}{% endif %}</td>
-			  <td>{% if stf.support_web %}<a href="{{ stf.support_web }}">Hjelpeside</a>{% endif %}</td>
+			<tr id="stf-row-{{stf.nr}}" class="row">
+			  <td>
+				<div class="col-sm-5"><strong>{{ stf.navn }}</strong></div>
+				<div class="col-sm-3 col-xs-6">{% if stf.support_mail %}<a href="mailto:{{ stf.support_mail }}?subject=Hjelp%20med%20KursAdmin"><span class="glyphicon glyphicon-envelope"></span> {{ stf.support_mail }}</a>{% endif %}</div>
+				<div class="col-sm-2 col-xs-3">{% if stf.support_tlf %}<span class="glyphicon glyphicon-earphone"></span> {{ stf.support_tlf }}{% endif %}</div>
+				<div class="col-sm-2 col-xs-3">{% if stf.support_web %}<a href="{{ stf.support_web }}"><span class="glyphicon glyphicon-globe"></span> Hjelpeside</a>{% endif %}</div>
+			  </td>
 			</tr>
 		{% endif %}
 		{% endfor %}
