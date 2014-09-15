@@ -67,10 +67,10 @@ Det er det enkelte studieforbund som tilbyr kurs, hjelp og støtte til sine medl
 		{% if stf.support_mail or stf.support_tlf or stf.support_web %}
 			<tr id="stf-row-{{stf.nr}}" class="row">
 			  <td>
-				<div class="col-sm-5"><strong>{{ stf.navn }}</strong></div>
-				<div class="col-sm-3 col-xs-6">{% if stf.support_mail %}<a href="mailto:{{ stf.support_mail }}?subject=Hjelp%20med%20KursAdmin"><span class="glyphicon glyphicon-envelope"></span> {{ stf.support_mail }}</a>{% endif %}</div>
-				<div class="col-sm-2 col-xs-3">{% if stf.support_tlf %}<span class="glyphicon glyphicon-earphone"></span> {{ stf.support_tlf }}{% endif %}</div>
-				<div class="col-sm-2 col-xs-3">{% if stf.support_web %}<a href="{{ stf.support_web }}"><span class="glyphicon glyphicon-globe"></span> Hjelpeside</a>{% endif %}</div>
+				<div class="col-md-4 col-sm-12"><strong>{{ stf.navn }}</strong></div>
+				<div class="col-md-4 col-sm-6 col-xs-8">{% if stf.support_mail %}<a href="mailto:{{ stf.support_mail }}?subject=Hjelp%20med%20KursAdmin"><span class="glyphicon glyphicon-envelope"></span> {{ stf.support_mail }}</a>{% endif %}</div>
+				<div class="col-md-2 col-sm-3 col-xs-4">{% if stf.support_tlf %}<span class="glyphicon glyphicon-earphone"></span> {{ stf.support_tlf }}{% endif %}</div>
+				<div class="col-md-2 col-sm-3 col-xs-12">{% if stf.support_web %}<a href="{{ stf.support_web }}"><span class="glyphicon glyphicon-globe"></span> Hjelpeside</a>{% endif %}</div>
 			  </td>
 			</tr>
 		{% endif %}
