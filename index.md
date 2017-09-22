@@ -4,7 +4,7 @@ title: KursAdmin.org
 banner: True
 ---
 
-<div style="height: 300px;"><div style="background: url('http://38.media.tumblr.com/b69af3ed8a74f7df5e374711d1ed886c/tumblr_n7fgnop0bz1st5lhmo1_1280.jpg') no-repeat 50% 60%;height: 300px;position: absolute;width: 100%;left: 0;background-size: cover;z-index: -1;"></div></div>
+<div style="height: 300px;"><div style="background: url('{{ site.baseurl }}/images/tumblr_n7fgnop0bz1st5lhmo1_1280.jpg') no-repeat 50% 60%;height: 300px;position: absolute;width: 100%;left: 0;background-size: cover;z-index: -1;"></div></div>
 
 {: .feature }
 Muligheter med KursAdmin
@@ -53,7 +53,7 @@ KursAdmin skal bidra til enklere administrasjon, bedre kvalitetssikring, mer gje
 </div>
 </div>
 
-<div style="height: 300px; margin-top: 5ex;"><div style="background: url('http://33.media.tumblr.com/31f24c22894d6d46a7b6f4b0687db9cd/tumblr_mnh0uemhCk1st5lhmo1_1280.jpg') no-repeat 50% 60%;height: 300px;position: absolute;width: 100%;left: 0;background-size: cover;z-index: -1;"></div></div>
+<div style="height: 300px; margin-top: 5ex;"><div style="background: url('{{ site.baseurl }}/images/tumblr_mnh0uemhCk1st5lhmo1_1280.jpg') no-repeat 50% 60%;height: 300px;position: absolute;width: 100%;left: 0;background-size: cover;z-index: -1;"></div></div>
 
 {: .feature }
 Få hjelp med KursAdmin
