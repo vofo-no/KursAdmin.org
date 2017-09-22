@@ -2,8 +2,9 @@
   nr: 350
   support_mail: aks@aks.as
 
-- navn: Idrettens studieforbund
-  nr: 380
+# Bruker ikke KursAdmin
+#- navn: Idrettens studieforbund
+#  nr: 380
 
 - navn: Kristelig studieforbund
   nr: 370
@@ -16,14 +17,16 @@
   support_tlf: 22 00 56 00
   support_web: http://www.musikkensstudieforbund.no/kursadmin/
 
-- navn: Samisk studieforbund
-  nr: 270
+# Bruker ikke KursAdmin
+#- navn: Samisk studieforbund
+#  nr: 270
 
 - navn: Senterpartiets studieforbund
   nr: 340
 
-- navn: Sosialistisk Venstrepartis studieforbund
-  nr: 300
+# Bruker ikke KursAdmin
+#- navn: Sosialistisk Venstrepartis studieforbund
+#  nr: 300
 
 - navn: Studieforbundet AOF Norge
   nr: 220
@@ -43,8 +46,9 @@
   support_tlf: 61 21 77 54
   support_web: http://www.kulturogtradisjon.no/component/content/article?id=722
 
-- navn: Studieforbundet natur og miljø
-  nr: 320
+# Bruker ikke KursAdmin
+#- navn: Studieforbundet natur og miljø
+#  nr: 320
 
 - navn: Studieforbundet næring og samfunn
   nr: 240
@@ -52,8 +56,9 @@
   support_tlf: 22 17 66 00
   support_web: http://snos.no/sporsmal-og-svar?catid=6
 
-- navn: Studieforbundet solidaritet
-  nr: 330
+# Bruker ikke KursAdmin
+#- navn: Studieforbundet solidaritet
+#  nr: 330
 
 - navn: Venstres opplysnings- og studieforbund
   nr: 310
