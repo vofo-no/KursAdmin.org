@@ -15,7 +15,7 @@
   nr: 250
   support_mail: msf@musikk.no
   support_tlf: 22 00 56 00
-  support_web: http://www.musikkensstudieforbund.no/kursadmin/
+  support_web: http://www.musikkensstudieforbund.no/vo/veiledning/
 
 # Bruker ikke KursAdmin
 #- navn: Samisk studieforbund
@@ -38,13 +38,13 @@
   nr: 200
   support_mail: post@funkis.no
   support_tlf: 06 315
-  support_web: http://funkis.no/node/195
+  support_web: http://funkis.no/node/176
 
 - navn: Studieforbundet kultur og tradisjon
   nr: 290
   support_mail: post@kulturogtradisjon.no
   support_tlf: 61 21 77 54
-  support_web: http://www.kulturogtradisjon.no/component/content/article?id=722
+  support_web: http://www.kulturogtradisjon.no/tilskudd/kursadmin
 
 # Bruker ikke KursAdmin
 #- navn: Studieforbundet natur og miljø
@@ -54,7 +54,7 @@
   nr: 240
   support_mail: post@naeringogsamfunn.no
   support_tlf: 22 17 66 00
-  support_web: http://snos.no/sporsmal-og-svar?catid=6
+  support_web: http://www.naeringogsamfunn.no/kursadmin.5924198-387613.html
 
 # Bruker ikke KursAdmin
 #- navn: Studieforbundet solidaritet
