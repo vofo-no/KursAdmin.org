@@ -32,7 +32,7 @@ color: #aaa;
 @media (min-width:768px){
 	header div.banner button.btn-lg, header div.banner a.btn-lg { padding: 18px 32px;font-size: 26px; } 
 	header div.banner h2 { line-height: 1.5; font-size: 30px; }}
-@media (min-height:600px) {
+@media (min-height:650px) {
 	div.scroll-down { display:block; cursor: pointer;position: absolute;bottom: -15px;width: 100%;left: 0;right: 0; height: 50px; margin: 20px 0; text-align: center; }
 	div.scroll-down div.arrow { border-top: 15px solid #ccc;border-right: 20px solid transparent;border-left: 20px solid transparent;width: 40px;margin: 4px auto auto;}
 }
