@@ -8,6 +8,11 @@
       <div id="banner-form">
         <div class="row">
           <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <noscript>
+              <div class="alert alert-danger" role="alert">
+                <strong>JavaScript må aktiveres</strong> i nettleseren din for å bruke KursAdmin.
+              </div>
+            </noscript>
             <select id="stf-valg" class="form-control input-lg" aria-labelledby="stf-valg-label">
               <option value="" id="stf-valg-label"> -- Velg ditt studieforbund -- </option>
               {% for stf in site.data.studieforbund %}
