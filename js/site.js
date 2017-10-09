@@ -13,7 +13,7 @@ $(function() {
   var n=$("div.scroll-down");
   $(document).on('click', n, function() {
     $('html, body').animate({scrollTop: $('div.container:first').offset().top}, 500);
-  }
+  });
 });
 
 
