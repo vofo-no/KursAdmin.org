@@ -9,12 +9,10 @@
 
 /* ------- site.js ------- */
 
-$(function() {
-  var n=$("div.scroll-down");
-  $(document).on('click', n, function() {
+$(document).on('click', 'div.scroll-down', function() {
     $('html, body').animate({scrollTop: $('div.container:first').offset().top}, 500);
-  });
 });
+
 
 
 /* COOKIE-remember-selected-option: e = select id / cookie name */
