@@ -38,7 +38,7 @@
   support_mail: resepsjon@folkeuniversitetet.no
   support_tlf: 22 98 88 00
 
-- navn: Studieforbundet FUNKIS
+- navn: Studieforbundet Funkis
   nr: 200
   support_mail: post@funkis.no
   support_tlf: 06 315
@@ -64,10 +64,11 @@
 #- navn: Studieforbundet solidaritet
 #  nr: 330
 
-- navn: Venstres opplysnings- og studieforbund
+- navn: Venstres studieforbund
   nr: 310
 
-- navn: Voksenopplæringsforbundet
-  nr: 230
-  support_mail: kursadmin@vofo.no
-  support_tlf: 22 41 00 00
+# Bruker ikke KursAdmin
+#- navn: Voksenopplæringsforbundet
+#  nr: 230
+#  support_mail: kursadmin@vofo.no
+#  support_tlf: 22 41 00 00
