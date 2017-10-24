@@ -12,7 +12,8 @@ if (typeof(Storage) !== "undefined") {
     $("#stf-row-" + v).addClass("active");
   });
   $(function() {
-    $("#stf-valg option[value=" + localStorage.getItem("valgt-stf") + "]").attr("selected", "selected");
+    var v = localStorage.getItem("valgt-stf");
+    v && $("#stf-valg option[value=" + v + "]").prop("selected", true);
     $("#stf-valg").trigger("change");
   });
 }
